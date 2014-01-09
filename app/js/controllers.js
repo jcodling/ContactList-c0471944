@@ -5,7 +5,7 @@
 angular.module('contactListApp.controllers', []).
   controller('ContactListCtrl', function($scope) {
   
-  	$scope.contacts [
+  	$scope.contacts = [
 		{
 			"first": "Jim",
 			"last": "Cooper",
@@ -17,7 +17,7 @@ angular.module('contactListApp.controllers', []).
 			"extention": "3418"
 		},
 		{
-			"firste": "Rick",
+			"first": "Rick",
 			"last": "Brown",
 			"extention": "3376"
 		},
@@ -26,9 +26,6 @@ angular.module('contactListApp.controllers', []).
 			"last": "Payne",
 			"extention": "3418"
 		}
-	]
+	];
 
-  })
-  .controller('MyCtrl2', [function() {
-
-  }]);
+  });

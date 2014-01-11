@@ -9,23 +9,22 @@ angular.module('contactListApp.controllers', []).
 		{
 			"first": "Jim",
 			"last": "Cooper",
-			"extention": "3219"
+			"extension": "3219"
 		},
 		{
 			"first": "Liane",
 			"last": "Cooper",
-			"extention": "3418"
+			"extension": "3336"
 		},
 		{
 			"first": "Rick",
 			"last": "Brown",
-			"extention": "3376"
+			"extension": "3376"
 		},
 		{
 			"first": "Len",
 			"last": "Payne",
-			"extention": "3418"
+			"extension": "3418"
 		}
 	];
-
   });

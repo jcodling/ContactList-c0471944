@@ -6,6 +6,11 @@
   <link rel="stylesheet" href="css/app.css"/>
 </head>
 <body ng-controller="ContactListCtrl">
+  <head>
+    <h1>Contact List</h1>
+    <h3>Jeff Codling - c0471944</h3>
+    <h3>Lambton College CPRO</h3>
+  </head>
 	<div id="searchArea">
 		Search: <input ng-model="query">
 		Sort by:
@@ -17,16 +22,22 @@
 	</div>
 	<table>
 	  <tr>
-	  	<th>First Name</td>
-		<th>Last Name</td>
-		<th>E-Mail</td>
-		<th>Phone Number</td>
+      <th>Thumb</th>
+      <th>First Name</td>
+      <th>Last Name</td>
+      <th>E-Mail</td>
+      <th>Phone Number</td>
 	  </tr>
 	  <tr class="contact" ng-repeat="contact in contacts | filter:query | orderBy:orderProp">
-		<td class="first">{{contact.first}}</td>
-		<td class="last">{{contact.last}}</td>
-		<td class="email">{{contact.first}}.{{contact.last}}@lambtoncollege.ca</td>
-		<td class="phone">519-542-7751 ext. {{contact.extension}}</td>
+      <td class="thumb">
+        <a href="#/contacts/{{contact.id}}">
+          <img ng-src="{{contact.imageUrl}}" alt="{{contact.first}} {{contact.last}}" title="{{contact.first}} {{contact.last}}">
+        </a>
+      </td>
+      <td class="first">{{contact.first}}</td>
+      <td class="last">{{contact.last}}</td>
+      <td class="email">{{contact.first+'.'+contact.last+'@lambtoncollege.ca'}}</td>
+      <td class="phone">519-542-7751 ext. {{contact.extension}}</td>
 	  </tr>
 	</table>
 

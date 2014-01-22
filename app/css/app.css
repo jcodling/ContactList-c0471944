@@ -1,5 +1,17 @@
 /* app css stylesheet */
 
+h1,h2,h3,h4 {
+  text-align: center;
+}
+h1 {
+  font-size: 1.3em;
+}
+h2 {
+  font-size: 1.2em;
+}
+h3 {
+  font-size: 1.1em;
+}
 li {
   display: inline;
 }
@@ -7,7 +19,7 @@ table {
   display: block;
   margin: 5px auto;
   border-collapse: collapse;
-  width: 600px;
+  width: 800px;
   text-align: center;
 }
 tbody tr {
@@ -18,7 +30,7 @@ tbody tr:first-of-type {
   border: none;
 }
 td {
-  width: 20%;
+  width: 16%;
 }
 th {
   background: black;
@@ -32,7 +44,7 @@ th:last-of-type {
   border-top-right-radius: 10px;
 }
 th:last-of-type {
-  width: 40%;
+  width: 30%;
 }
 tbody td {
   border-bottom: 1px solid black;
@@ -45,4 +57,7 @@ tbody tr:nth-of-type(even) {
 }
 #searchArea {
 	text-align: center;
+}
+tbody .thumb img {
+  width: 50px;
 }

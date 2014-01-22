@@ -1,0 +1,795 @@
+commit b21a00e29b32bc4ce2cde47be30aa5d6808d067d
+Author: jcodling <circuitjc@gmail.com>
+Date:   Fri Jan 10 20:24:50 2014 -0500
+
+    Final commit. Everything working as intended.
+
+commit 1b09d7bb809718dbc8cc3a77c33be776e29ed40f
+Author: jcodling <circuitjc@gmail.com>
+Date:   Thu Jan 9 13:40:34 2014 -0500
+
+    Made it work.
+    
+    Added proper CSS, fixed JSON, separated first and last name as per
+    example sheet.
+
+commit 28b777f9da6f4ae328358301fe5bb08c89384faa
+Author: jcodling <circuitjc@gmail.com>
+Date:   Wed Jan 8 14:21:28 2014 -0500
+
+    Fixed JSON
+    
+    Fixed the format of the JSON data for the contacts.
+
+commit 7016d52e8516b060e93f38d5c5ae33ed94f7275f
+Author: jcodling <circuitjc@gmail.com>
+Date:   Wed Jan 8 10:19:08 2014 -0500
+
+    Initial Commit
+    
+    First commit at start of project.
+
+commit 0ff2b4b1b7e648dfff469dcc857fdf3874ba26e3
+Author: Tobias Bosch <tbosch1009@gmail.com>
+Date:   Tue Jan 7 13:29:32 2014 -0800
+
+    chore(build): refactor update angular and run tests
+
+commit eb20057f640695a61815fc9c382d24feabf8e0f1
+Author: Tobias Bosch <tbosch1009@gmail.com>
+Date:   Tue Jan 7 10:05:32 2014 -0800
+
+    chore(build): update angular using a directory
+
+commit e9a3fe5acb67951a31c418df638aac875aaa5051
+Author: Tobias Bosch <tbosch1009@gmail.com>
+Date:   Fri Jan 3 11:29:50 2014 -0800
+
+    update(angular): bump to 1.2.7
+
+commit 3b0f85254beab4ad8b26ae37cb3de59d70da0d5f
+Author: Vojta Jina <vojta.jina@gmail.com>
+Date:   Fri Dec 20 10:13:11 2013 -0800
+
+    update(angular): bump to 1.2.6
+
+commit 1f4f1a3d58b8433dffd5e22946f8a39664f793c7
+Author: Brian Ford <btford@umich.edu>
+Date:   Fri Dec 13 13:24:15 2013 -0800
+
+    update(angular): bump angular to 1.2.5
+
+commit 7e2364d9baeaa6a49950c10b1427b28adf2a538c
+Author: Pete Bacon Darwin <pete@bacondarwin.com>
+Date:   Fri Dec 6 19:48:00 2013 +0000
+
+    bump angular to 1.2.4
+
+commit 51398b3c902d3fc28beb7d989168f0d044872021
+Author: Peter Bacon Darwin <pete@bacondarwin.com>
+Date:   Wed Nov 27 19:42:07 2013 +0000
+
+    update(angular): bump angular to 1.2.3
+
+commit 49d5b3f60c7753b0815563178585b5ed678b20e8
+Author: Tobias Bosch <tbosch1009@gmail.com>
+Date:   Fri Nov 22 10:06:53 2013 -0800
+
+    update(angular): bump angular to 1.2.2
+
+commit 2b5b9b36b442ef304b4f9accb925ab3ed4a37916
+Author: Jeff Cross <middlefloor@gmail.com>
+Date:   Fri Nov 8 16:57:55 2013 -0800
+
+    fix(karma): excluded angular-scenario
+
+commit 294bb71ff83a8f6c9b13d98c141ff565a4c16e9a
+Author: Jeff Cross <middlefloor@gmail.com>
+Date:   Fri Nov 8 11:37:22 2013 -0800
+
+    update(angular): bump angular to 1.2.0
+
+commit dab567639ef911e5b09f88fc7b11d0243e13bd8c
+Author: Jeff Cross <middlefloor@gmail.com>
+Date:   Mon Nov 4 16:18:57 2013 -0800
+
+    fix(scenario): Made path ci-friendly
+
+commit 616769d78a41bb7aa68ad7b48800dad0219c6b8e
+Author: Jeff Cross <middlefloor@gmail.com>
+Date:   Mon Nov 4 16:15:40 2013 -0800
+
+    fix(karma): Removed loader file from unit config
+
+commit 15b43702a7dff536f2a80b25b9a76712c04dafd8
+Author: Jeff Cross <middlefloor@gmail.com>
+Date:   Mon Nov 4 16:01:47 2013 -0800
+
+    fix(e2e): Change app loading path in e2e test
+
+commit 340c882fec755cd25d7c672601974535c31865db
+Author: Jeff Cross <middlefloor@gmail.com>
+Date:   Mon Nov 4 15:47:56 2013 -0800
+
+    fix(karma): Fixed inadvertently-removed asterisk match
+
+commit d966a5d5286564a1458b61d16b61e37874716a26
+Author: Jeff Cross <middlefloor@gmail.com>
+Date:   Mon Nov 4 09:46:07 2013 -0800
+
+    fix(package): Added repository to package.json
+
+commit 8edd6dded5cdf2a6b418a2d7b6543202511487c8
+Author: Jeff Cross <middlefloor@gmail.com>
+Date:   Mon Nov 4 09:27:44 2013 -0800
+
+    fix(karma): Excluded minified files from unit test
+
+commit b98c0328408a486306ebfce83cd094b083d0b5d0
+Author: Jeff Cross <middlefloor@gmail.com>
+Date:   Mon Nov 4 09:25:53 2013 -0800
+
+    fix(unit): Changed unit test to use local karma
+
+commit 8711f6eeab122dc0be873a1a4ccb6e2c0eab55fd
+Author: Jeff Cross <middlefloor@gmail.com>
+Date:   Mon Nov 4 09:13:22 2013 -0800
+
+    feat(e2e): Used local karma to run e2e tests
+
+commit 36509950eeeef337539b5fce7480cf604ce0251b
+Author: Jeff Cross <middlefloor@gmail.com>
+Date:   Mon Nov 4 09:12:53 2013 -0800
+
+    gitignore: Added node_modules to ignore
+
+commit b5c79b4f1fb788e828368c85260cec1ff895d446
+Author: Jeff Cross <middlefloor@gmail.com>
+Date:   Mon Nov 4 09:12:37 2013 -0800
+
+    fix(package.json): Fixed spelling and versions in package.json
+
+commit 3fb39660722a33710798b4514d4b9acdf0294b51
+Author: Brian Ford <btford@umich.edu>
+Date:   Mon Oct 14 14:29:17 2013 -0700
+
+    upgrade to angular 1.2.0-rc.3 ferocious-twitch
+
+commit 993937a5e2fe881f1d37752989515d623e52324a
+Author: Brian Ford <btford@umich.edu>
+Date:   Thu Oct 10 11:56:09 2013 -0700
+
+    load angular-route.js in index.html
+
+commit a37e50b669d1a44c4a4d09767174601dab6a4e00
+Author: Brian Ford <btford@umich.edu>
+Date:   Thu Oct 10 11:55:50 2013 -0700
+
+    add ngRoute module to app.js
+
+commit 647517ece8e0817d390577348a524e186aa2ab81
+Author: Brian Ford <btford@umich.edu>
+Date:   Wed Oct 9 15:35:37 2013 -0700
+
+    upgrade to angular 1.2.0-rc.2 barehand-atomsplitting
+
+commit 3a588bfc4607e349d2af3f5797968fead3d1ca1d
+Author: Brian Ford <btford@umich.edu>
+Date:   Wed Oct 9 14:24:17 2013 -0700
+
+    add license file
+
+commit 16fc9a21550c95e0fa6df958530841f8ba7f7343
+Author: Michael Neale <michael.neale@gmail.com>
+Date:   Tue Aug 20 15:40:53 2013 +1000
+
+    Jasmine needs to be listed as a framework
+    
+    karma conf is now exported functions
+    
+    how embarrassing - now it really should work
+    
+    need ng-scenario for e2e tests
+    
+    need karma-junit-reporter
+    
+    trying without jasmine
+    
+    trying some other plugins
+    
+    adding jasmine in
+    
+    I will stab someone
+    
+    ng-scenario is probably needed
+    
+    trying adding karma-ng-scenario
+    
+    need a package.json to specify dev deps
+    
+    normalise quotes
+
+commit c7ea21dd35fdd43439843eb7860e0cf243e92f0a
+Author: Phil Spitler <pspitler@gmail.com>
+Date:   Wed Jun 5 23:26:41 2013 -0300
+
+    update CDN link in index.html to 1.0.7
+
+commit 220e8a55092e8cfd5a72f97f0b0a6733eb75a8f5
+Author: Brian Ford <btford@umich.edu>
+Date:   Wed Jun 12 07:15:29 2013 -0400
+
+    upgrade angular-loader to v1.0.7
+
+commit 8111a5d6042a45a0fe2dc1b2fa5af337c2f139e3
+Author: Igor Minar <igor@angularjs.org>
+Date:   Wed May 22 21:13:33 2013 -0700
+
+    upgrade to angular 1.0.7 monochromatic-rainbow
+
+commit 30fcebb5d6ca44ebd84ec0db769c44ffe1ef52b8
+Author: _pants <_pants@anotherwebsite.org>
+Date:   Fri Apr 12 13:10:40 2013 -0400
+
+    "testacular" -> "karma" in travis config
+
+commit 8c631029761c5b066a36ccae74f59222a0b87e41
+Author: _pants <_pants@anotherwebsite.org>
+Date:   Fri Apr 12 13:10:30 2013 -0400
+
+    correct "logs/*" entry in .gitignore
+
+commit 4a2e42f06fc0eca5d9781590e2f57823062806e8
+Merge: ea6c7e2 723af2d
+Author: Igor Minar <igor@angularjs.org>
+Date:   Thu Apr 11 16:32:29 2013 -0700
+
+    rename Testacular to Karma
+    
+    Merge remote-tracking branch 'origin/pr/61'
+
+commit ea6c7e2faa09c6440f7e99c4ef44253b5c8eabab
+Author: Elnur Abdurrakhimov <elnur@elnur.pro>
+Date:   Fri Apr 5 14:38:12 2013 +0400
+
+    Remove dev tools specific files from .gitignore
+    
+    There are infinite dev tools with infinite kinds of files they generate. Instead of putting every possible entry to the project's .gitignore file, a user should create her own global .gitignore with entries specific to the tools used by her.
+
+commit 9233dfbaecfcb28ec9286adf2d6af3a6c3c41303
+Author: Elnur Abdurrakhimov <elnur@elnur.pro>
+Date:   Fri Apr 5 14:18:43 2013 +0400
+
+    Switch to one global .gitignore
+
+commit caacabef6774fde3bc7497780258d02c44a78dcb
+Author: Iszak Bryan <iszak.bryan@gmail.com>
+Date:   Wed Jan 30 22:03:45 2013 +0000
+
+    Moved global controllers to module
+
+commit 8c620f3630a62f9794a68afd7a201aeb011f16a5
+Author: ermakovich <s.ermakovich@gmail.com>
+Date:   Thu Jan 17 19:49:03 2013 +0300
+
+    Made runner.html to use utf-8 charset
+
+commit 3c18dcc67c3b73fdc763f31b99e83a526b2fea85
+Author: _pants <_pants@anotherwebsite.org>
+Date:   Wed Oct 24 11:30:40 2012 -0400
+
+    travis-ci config for unit and e2e tests
+
+commit a6f302d2e4564d5840c3c6b29dd9896a09b1eccb
+Author: Sal Fuentes <fuentesjr@gmail.com>
+Date:   Fri Apr 5 17:41:00 2013 -0700
+
+    update CDN link index.html to 1.0.6
+
+commit 723af2de9a2540ff3825c5e475c46d4f34a3e596
+Author: Michael Neale <michael.neale@gmail.com>
+Date:   Thu Apr 11 17:17:26 2013 +1000
+
+    fixed capitalisation of Karma and links corrected
+
+commit 35aa5a07e1d6289247b2075de78fa7382020fd9f
+Author: Michael Neale <michael.neale@gmail.com>
+Date:   Wed Apr 10 15:31:10 2013 +1000
+
+    shift to karma from testacular
+
+commit fad60652e9a6d7edda72b42d237031297ff8cb70
+Author: Igor Minar <igor@angularjs.org>
+Date:   Thu Apr 4 14:09:04 2013 -0700
+
+    upgrade to angular 1.0.6 universal-irreversibility
+
+commit a59cad685db170fa02b68932ea589be763912050
+Merge: 07ffa8c 0ba25b3
+Author: Igor Minar <iiminar@gmail.com>
+Date:   Wed Feb 27 01:20:30 2013 -0800
+
+    Merge pull request #52 from michaelneale/master
+    
+    Added link to cloudbees clickstart
+
+commit 0ba25b36af5c16e9b8e5fdfb602e210c504b63f6
+Author: Michael Neale <michael.neale@gmail.com>
+Date:   Tue Feb 26 17:40:37 2013 +1100
+
+    Added link to clickstart
+
+commit 07ffa8ced4ab1eee63c41257e07c51362867ef3c
+Author: Igor Minar <igor@angularjs.org>
+Date:   Wed Feb 20 13:02:19 2013 -0800
+
+    update angular to 1.0.5
+
+commit e9f41159848825de66d3c90f19e9b5700b5164d2
+Author: Igor Minar <igor@angularjs.org>
+Date:   Wed Jan 23 11:02:18 2013 -0800
+
+    upgrade to angular 1.0.4
+
+commit 14b576740316cb1df3395513fe73777462c94c4e
+Author: Miško Hevery <misko@hevery.com>
+Date:   Thu Dec 6 14:05:10 2012 -0800
+
+    add missing ng-cloak directive
+
+commit 4b5b4681e43a95d95e26af714f2992909892a3ff
+Author: Igor Minar <igor@angularjs.org>
+Date:   Tue Nov 27 01:52:42 2012 +0100
+
+    upgrade to AngularJS 1.0.3 bouncy-thunder
+
+commit 5c742c31fe9d1408923d5f138a6b56cc5284fba4
+Author: Igor Minar <igor@angularjs.org>
+Date:   Thu Nov 1 10:36:16 2012 -0700
+
+    remove obsolete test-server scripts
+
+commit aa3c9dba6351259cd0e6971ec25903c35e3590f1
+Author: Alexey Golev <alexey.golev@wearegoat.com>
+Date:   Mon Sep 24 04:02:55 2012 +0100
+
+    add 'svg' MIME type to web-server
+
+commit e0e67e921e579ef742a73be3398885cbd83e9091
+Author: Igor Minar <igor@angularjs.org>
+Date:   Wed Oct 17 23:53:38 2012 -0700
+
+    Update README.md file
+
+commit 1b021121165f0001f8d9d1d17ced120275fe7fbc
+Author: DjebbZ <khalid.jebbari@gmail.com>
+Date:   Tue Aug 14 16:16:30 2012 +0300
+
+    Update to node 0.8 : "sys" is now called "util".
+    
+    Simple text and replace and it works on node 0.8.
+
+commit d6b84960730b384a394677d0018eba6226a0ec59
+Author: Jaap Karan Singh Dua <jksdua@gmail.com>
+Date:   Tue Jun 5 21:06:48 2012 +1000
+
+    Added global flag to path replace function in handleRequest to allow more than one space (aka %20) in the name
+
+commit 8982ebc52dc8a83974953fb28837dc9ad8c1b591
+Author: Petr Severa <segedacz@gmail.com>
+Date:   Mon Jun 4 23:24:45 2012 +0300
+
+    sync README with code
+
+commit 849b63a96d28fbafbf6618a4ee33a86f6892be29
+Author: Jason Stone <rolaveric@gmail.com>
+Date:   Sun Sep 16 09:23:25 2012 +1000
+
+    Update windows scripts to use Testacular
+
+commit 8af0035d6ef33e9d1b7556468e82c50cd9eaafcc
+Author: Igor Minar <igor@angularjs.org>
+Date:   Thu Sep 20 10:05:41 2012 -0700
+
+    add junit reporter to testacular configs
+
+commit dcdc11fb0b6fc97d70b0d80183cd82e814505d9b
+Author: Igor Minar <igor@angularjs.org>
+Date:   Thu Sep 20 10:00:45 2012 -0700
+
+    pass arguments through test.sh and e2e-test.sh
+
+commit 094fdf3fd1c791b5dd4d75dbb769dd62bfb594af
+Author: Igor Minar <igor@angularjs.org>
+Date:   Wed Sep 12 17:10:26 2012 -0700
+
+    improve wildcards in testacular configs
+
+commit 2d315ac5a2b0a98430894af384d105463f355dbb
+Author: Igor Minar <igor@angularjs.org>
+Date:   Tue Sep 11 23:37:24 2012 -0700
+
+    switch over to using Testacular for running unit tests
+
+commit c57d3b5e5088b950ba724d9209b3e66fa68a469e
+Author: Igor Minar <igor@angularjs.org>
+Date:   Tue Sep 11 22:32:46 2012 -0700
+
+    switch over to using Testacular for E2E tests
+
+commit b189a59937b59ff2a47bfd5a70149ba2527d3aad
+Author: Igor Minar <igor@angularjs.org>
+Date:   Wed Sep 5 12:05:29 2012 -0700
+
+    add link to CDN to index.html
+
+commit b811f56d42a4922290d0ea9744c3dbdc0b828b55
+Author: Igor Minar <igor@angularjs.org>
+Date:   Wed Sep 5 12:04:51 2012 -0700
+
+    upgrade to AngularJS 1.0.2
+
+commit 91cb91e5bf865835a4b2235abb8a6dca47b1d795
+Author: Igor Minar <igor@angularjs.org>
+Date:   Mon Jun 25 09:42:00 2012 -0700
+
+    upgrade angular to 1.0.1
+
+commit cead16de12a7048f5aeb5ca2ed1bf774dd8c4bd5
+Author: Igor Minar <igor@angularjs.org>
+Date:   Thu Jun 14 08:19:30 2012 -0700
+
+    upgrading AngularJS to 1.0
+
+commit 0eb162aa32926b9f122a373eef63923e5bfd431d
+Author: Igor Minar <igor@angularjs.org>
+Date:   Tue Jun 12 02:05:47 2012 -0700
+
+    upgrade to AngularJS 1.0.0rc12
+
+commit 65cb69135ee76996f59cedce3054f18016a32a86
+Author: Igor Minar <igor@angularjs.org>
+Date:   Mon Jun 11 00:56:16 2012 -0700
+
+    migrate code to 1.0.0rc11
+
+commit 830516a8be4edbf995c059f9341f94ba0edfcd83
+Author: Igor Minar <igor@angularjs.org>
+Date:   Mon Jun 11 00:54:46 2012 -0700
+
+    upgrade to AngularJS 1.0.0rc11 promise-resolution
+
+commit e27efe2023eacd848afba13b68d52a61d606d0e9
+Author: Igor Minar <igor@angularjs.org>
+Date:   Wed May 23 21:38:36 2012 -0700
+
+    upgrade to AngularJS 1.0.0rc10 tesseract-giftwrapping
+
+commit 559e62649fb746869f89a8a542ad23efbdbd622b
+Author: Igor Minar <igor@angularjs.org>
+Date:   Tue May 15 00:20:22 2012 -0700
+
+    fix typo in sample e2e test
+
+commit 697ff544075f7d0be5fda66d5a14402d07db0e88
+Author: Igor Minar <igor@angularjs.org>
+Date:   Tue May 15 00:03:16 2012 -0700
+
+    upgrade to AngularJS 1.0.0rc eggplant-teleportation
+
+commit 643d16c56555e979a56ed85393affd328d626d0a
+Author: Igor Minar <igor@angularjs.org>
+Date:   Mon May 7 00:16:39 2012 -0700
+
+    upgrade to AngularJS 1.0.0rc8 blooming-touch
+
+commit 7cd74c04d3b6cfff31425b47345a0958045eb75f
+Author: Igor Minar <igor@angularjs.org>
+Date:   Mon Apr 30 16:34:20 2012 -0700
+
+    upgrade to AngularJS 1.0.0rc7 rc-generation
+
+commit 736aadc7b0b5d6ca8f652657b133b96788c0805e
+Author: Daniel Zen <daniel@zendigital.com>
+Date:   Mon Mar 26 18:13:23 2012 -0400
+
+    Fix extraneous " in doctype tag. Changed ng:autotest to ng-autotest
+
+commit 8c7559ed095bd49d77d7ecf71ac084e0269e2a21
+Author: Igor Minar <igor@angularjs.org>
+Date:   Sun Apr 29 23:07:34 2012 -0700
+
+    update the jasmine-jstd-adapter with fixes
+
+commit 11e1695154127e28964687149bd24a8922bc38b6
+Author: Igor Minar <igor@angularjs.org>
+Date:   Sun Apr 29 21:39:30 2012 -0700
+
+    various fixes
+
+commit 5d36813bee979ccb3f6a9c36639b260e7a3af8e7
+Author: Igor Minar <igor@angularjs.org>
+Date:   Fri Apr 20 16:56:47 2012 -0700
+
+    upgrade to AngularJS 1.0.0rc6 runny-nose
+
+commit 0a299592d2c818f9ee14f7229ceeb77aba173f62
+Author: Igor Minar <igor@angularjs.org>
+Date:   Thu Apr 12 03:49:10 2012 -0700
+
+    upgrade to angular 1.0.0rc5 reality-distortion
+
+commit 8f64ca234d2eb7f16b17d83679cb863ac543f7a1
+Author: Igor Minar <igor@angularjs.org>
+Date:   Thu Apr 5 12:14:45 2012 -0700
+
+    upgrade to angular 1.0.0rc4 insomnia-induction
+
+commit 0c23b90ee2f3904ce4e8faff18b8a1368110d4fe
+Author: Igor Minar <igor@angularjs.org>
+Date:   Thu Mar 29 16:06:35 2012 -0700
+
+    upgrade to 1.0.0rc3 barefoot-telepathy
+
+commit 3d03b985173673840bdcbf34b67a32812b89237c
+Author: Igor Minar <igor@angularjs.org>
+Date:   Tue Mar 20 15:43:46 2012 -0700
+
+    upgrade seed to 1.0.0rc2 silence-absorption
+
+commit 27468b4da46ead0e318bac5cc3b66dab66c4672c
+Author: Igor Minar <igor@angularjs.org>
+Date:   Tue Mar 20 00:23:27 2012 -0700
+
+    Fix broken references to widgets and make template IE friendly
+
+commit 5da17aa54c27618433eeb3c64eefc5e69cc5d407
+Author: Vojta Jina <vojta.jina@gmail.com>
+Date:   Wed Mar 14 00:48:37 2012 -0700
+
+    Update seed app
+
+commit 93599abf498b2a9e20c7393c39669c488f3a04aa
+Author: Vojta Jina <vojta.jina@gmail.com>
+Date:   Wed Mar 14 00:30:44 2012 -0700
+
+    Update jasmine to 1.1.0
+
+commit a3e1e0033a1c0ba639782da4acb3ae24e7803d7e
+Author: Vojta Jina <vojta.jina@gmail.com>
+Date:   Wed Mar 14 00:27:50 2012 -0700
+
+    Update angular to 1.0.0-rc1
+
+commit 9806336556ef99ecfccedb482b062981f7c09571
+Author: Igor Minar <igor@angularjs.org>
+Date:   Mon Jan 23 17:42:16 2012 -0800
+
+    add inlined ng:cloak definition to the async template
+
+commit 68ed658f4aa4f472e86096663e85d64ac9fdbb3f
+Author: Igor Minar <igor@angularjs.org>
+Date:   Mon Jan 23 17:41:48 2012 -0800
+
+    remove extra ng:app from async template
+
+commit e445874cfef58bf8b0c755c97e1b52e401029e7b
+Author: Igor Minar <igor@angularjs.org>
+Date:   Tue Jan 17 14:39:49 2012 -0800
+
+    upgrade to 0.10.6 final
+
+commit 02e4c215ebfb9d5a31a88e13928ac7d84d0c5a69
+Author: Misko Hevery <misko@hevery.com>
+Date:   Fri Jan 13 21:04:35 2012 -0800
+
+    upgrade to AnuglarJS 0.10.6 bubblewrap-cape
+
+commit 2682dab1b7e4b47a76f670ec0c1aa1832feedf2b
+Author: Christoph Burgdorf <christoph.burgdorf@bvsn.org>
+Date:   Mon Sep 5 18:11:02 2011 +0200
+
+    upgrade to AngularJS 0.10.0 chicken-hands
+
+commit 226dfafe63ccdf348842f2f4e64406b9ff00058e
+Author: Marcello Nuccio <marcello.nuccio@gmail.com>
+Date:   Fri Sep 2 19:26:52 2011 +0300
+
+    Fixed two small typos in scripts/web-server.js.
+
+commit b0267a5bd56308b94f888d3ca283bf0ab1e4e085
+Author: Igor Minar <iiminar@gmail.com>
+Date:   Sun Aug 21 00:41:34 2011 -0700
+
+    upgrade to angular 0.9.19 canine-psychokinesis
+
+commit 0face2348155b93fcc360c7400e25634cb8b4f9e
+Author: Igor Minar <iiminar@gmail.com>
+Date:   Fri Jul 29 18:43:59 2011 -0700
+
+    upgrade to angular 0.9.18 jiggling-armfat
+
+commit 64345da0b8960d6a4f17f1a84b6c415f01abe363
+Author: Igor Minar <iiminar@gmail.com>
+Date:   Thu Jun 30 14:06:26 2011 -0700
+
+    upgrade to angular 0.9.17 vegetable-reanimation
+
+commit f46a6d728ff45df4ddeb8333abe774d6281a31be
+Author: Vojta Jina <vojta.jina@gmail.com>
+Date:   Mon Jun 13 18:38:11 2011 +0200
+
+    Missing semi-colons
+
+commit 07951a6a80223a61a8f73746cc5d68aa2422fdfb
+Author: Vojta Jina <vojta.jina@gmail.com>
+Date:   Mon Jun 13 18:36:46 2011 +0200
+
+    Update scripts for running tests
+    
+    - change forward slash into back slash in Win scripts
+    - split params to new lines
+    - remove $tests option as it makes no sense now
+
+commit e8c28eb239cafe387762ccd9a5d23c216b991232
+Author: Vojta Jina <vojta.jina@gmail.com>
+Date:   Mon Jun 13 18:31:46 2011 +0200
+
+    Add jstd-scenario-adapter so we can run e2e tests with JsTD
+    
+    Added basic configuration, so all you need to run e2e tests:
+    1/ start web server in project root
+    >> ./scripts/web-server.js
+    
+    2/ start JsTD server
+    >> ./scripts/e2e-test-server.sh
+    
+    3/ capture some browser
+    navigate to http://localhost:9877/capture
+    
+    4/ run the tests
+    >> ./scripts/e2e-test.sh
+
+commit e533fc653ab00a0f2b0cdf028510e475e8a38d41
+Author: Igor Minar <iiminar@gmail.com>
+Date:   Tue Jun 7 22:15:49 2011 -0700
+
+    angular 0.9.16 weather-control
+
+commit 289fab7e12ea5e3691ca6522ea6640e0474e4b46
+Author: Igor Minar <iiminar@gmail.com>
+Date:   Fri Jun 3 14:16:45 2011 -0700
+
+    making the windows script crlf delimited
+
+commit 002f70a3c753bc3e63f4b3e362b3f2d7207d48e0
+Author: Igor Minar <iiminar@gmail.com>
+Date:   Fri Jun 3 07:29:26 2011 -0700
+
+    update readme with windows info
+
+commit 187f55568376381df1578620cac73c85e26cd269
+Author: Igor Minar <iiminar@gmail.com>
+Date:   Thu Jun 2 23:39:51 2011 -0700
+
+    improving the windows bat scripts
+
+commit 393d5e9bc52c21eabd5cce4e651d0e50a42ce9bd
+Author: Ilya Fedotov <ifedotov@gmail.com>
+Date:   Fri May 20 15:34:49 2011 -0400
+
+    Added windows .bat equivalents to .sh scripts for running tests
+
+commit b5d47bc2a4da25a0bc2a096e3580b9c248ed5700
+Author: Igor Minar <iiminar@gmail.com>
+Date:   Mon Apr 18 16:57:33 2011 -0700
+
+    add index.html to the seed layout docs
+
+commit 59c3871e4a5af3028e6e7ce7361eda5a0e036038
+Author: Igor Minar <iiminar@gmail.com>
+Date:   Mon Apr 11 14:37:19 2011 -0700
+
+    upgrading to angular 0.9.15 lethal-stutter
+
+commit 19bda8af3db4c750a6a2df232546343c673fb305
+Author: Igor Minar <iiminar@gmail.com>
+Date:   Sun Apr 10 14:09:29 2011 -0700
+
+    fix typo in controllers.js placeholder code
+
+commit bd00b9a967020f6d70caabfd42129b6815963864
+Author: Igor Minar <iiminar@gmail.com>
+Date:   Fri Apr 1 13:48:39 2011 -0700
+
+    removing display:none + ng:show from index.html
+    
+    the best practice is not to use angular markup in index.html so
+    the hide/show thing is not needed.
+    
+    instead of <div>{{foo}}</div> use <div ng:bind="foo"></div> in
+    index.html. In other templates it is totally fine to use markup.
+
+commit d671a5519b18b787c073a85379b6e3430a06da49
+Author: Igor Minar <iiminar@gmail.com>
+Date:   Fri Apr 1 13:45:32 2011 -0700
+
+    upgrading angular to 0.9.14 key-maker
+
+commit 82dd42351d824d760c8e558ea349408b29df944c
+Author: Igor Minar <iiminar@gmail.com>
+Date:   Sun Mar 13 22:50:40 2011 -0700
+
+    updating angular to 0.9.13 curdling-stare
+
+commit f216c1fbbf3051c0421a8e5a9e2f30f7ff223abd
+Author: Igor Minar <iiminar@gmail.com>
+Date:   Tue Mar 8 11:29:27 2011 -0800
+
+    switching scripts/test.sh from sh to bash
+
+commit 570696b8957f4afdc2098767d44c684f3e8f2783
+Author: Igor Minar <iiminar@gmail.com>
+Date:   Tue Mar 8 11:27:44 2011 -0800
+
+    improving the test-server.sh console output
+
+commit 4e186e4f00ef48a98954efb4fb94081a4d76d700
+Author: Igor Minar <iiminar@gmail.com>
+Date:   Mon Mar 7 00:12:13 2011 -0800
+
+    jstd 1.3.1+ and jasmine-jstd-adapter upgrade
+
+commit af23ccae24ae5360cbf500f5669057a86bb24447
+Author: Igor Minar <iiminar@gmail.com>
+Date:   Mon Mar 7 00:11:30 2011 -0800
+
+    default to utf8 charset
+
+commit 5f74181b82de0b023d2481c9485a8db6c65c4dc6
+Author: Igor Minar <iiminar@gmail.com>
+Date:   Thu Mar 3 23:20:45 2011 -0800
+
+    angular 0.9.12 leftover .scope call fix
+
+commit 0c13364fcbaef2b1dfde4f24b3d5e10229a4d781
+Author: Igor Minar <iiminar@gmail.com>
+Date:   Thu Mar 3 23:07:42 2011 -0800
+
+    angular 0.9.12 $hover service fix
+
+commit 2156c67fdef4fda4b015285ce178938202c22ded
+Author: Igor Minar <iiminar@gmail.com>
+Date:   Thu Mar 3 14:29:53 2011 -0800
+
+    upgrading angular to 0.9.12 thought-implanter
+
+commit ace792c9ab7d88255e62ad3083e78c180ddf8d93
+Author: Igor Minar <iiminar@gmail.com>
+Date:   Tue Feb 8 22:31:20 2011 -0800
+
+    move jsTestDriver.conf into config/ directory
+
+commit fa27cd0a4a429409c7323f7498e77de167987756
+Author: Igor Minar <iiminar@gmail.com>
+Date:   Tue Feb 8 22:30:32 2011 -0800
+
+    upgrade to angular 0.9-10
+
+commit 12fa4ce1786c835a0fd30a75cc92a82748b30994
+Author: Igor Minar <iiminar@gmail.com>
+Date:   Thu Jan 27 00:09:30 2011 -0800
+
+    upgrade to angular 0.9.10 and update the code with angular API changes
+
+commit 4eb3470c9d5446ef55b0955e29aa9d6659f70c9e
+Author: Misko Hevery <misko@hevery.com>
+Date:   Tue Jan 11 13:46:16 2011 -0800
+
+    updated jasmine adapter to newer version
+
+commit 3f2cce012077bced39185888820034780278d2f7
+Author: Igor Minar <iiminar@gmail.com>
+Date:   Thu Dec 23 22:21:27 2010 -0800
+
+    the initial version

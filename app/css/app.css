@@ -1,63 +1,28 @@
 /* app css stylesheet */
 
-h1,h2,h3,h4 {
+h1,h2,h3,h4,h5 {
   text-align: center;
-}
-h1 {
-  font-size: 1.3em;
-}
-h2 {
-  font-size: 1.2em;
-}
-h3 {
-  font-size: 1.1em;
 }
 li {
   display: inline;
 }
 table {
-  display: block;
-  margin: 5px auto;
-  border-collapse: collapse;
   width: 800px;
-  text-align: center;
-}
-tbody tr {
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-}
-tbody tr:first-of-type {
-  border: none;
-}
-td {
-  width: 16%;
-}
-th {
-  background: black;
-  color: white;
-  font-weight: bold;
-}
-th:first-of-type {
-  border-top-left-radius: 10px;
-}
-th:last-of-type {
-  border-top-right-radius: 10px;
-}
-th:last-of-type {
-  width: 30%;
-}
-tbody td {
-  border-bottom: 1px solid black;
-}
-tbody tr {
-  margin-right: 2px;
-}
-tbody tr:nth-of-type(even) {
-  background: #eeeeee;
 }
 #searchArea {
 	text-align: center;
 }
-tbody .thumb img {
+.thumb {
   width: 50px;
+  border: solid 1px black;
+}
+#contactImage {
+  display: inline;
+  float: left;
+}
+#contactImage img {
+  border: solid 1px #333;
+}
+#contactName {
+  font-size: 2em;
 }
